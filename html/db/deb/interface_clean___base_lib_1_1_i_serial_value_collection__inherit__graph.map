@@ -1,0 +1,7 @@
+<map id="Clean_BaseLib.ISerialValueCollection" name="Clean_BaseLib.ISerialValueCollection">
+<area shape="rect" id="node1" title="The interface for packets, headers, and payloads" alt="" coords="202,131,385,223"/>
+<area shape="rect" id="node3" href="$d0/da5/class_clean___base_lib_1_1_base_class___packet.html" title="BaseClass_Packet is the abstract packet class implementing the ISerialValueCollection interface." alt="" coords="5,271,181,421"/>
+<area shape="rect" id="node4" href="$d9/dba/class_clean___base_lib_1_1_base_class___packet_header.html" title="BaseClass_PacketHeader is the abstract header class used for routing and identification of the packet..." alt="" coords="205,300,381,392"/>
+<area shape="rect" id="node5" href="$dc/d32/class_clean___base_lib_1_1_base_class___packet_payload.html" title="BaseClass_PacketPayload is the abstract payload class used to transfer serialized values through the ..." alt="" coords="405,300,581,392"/>
+<area shape="rect" id="node2" title=" " alt="" coords="247,5,339,83"/>
+</map>

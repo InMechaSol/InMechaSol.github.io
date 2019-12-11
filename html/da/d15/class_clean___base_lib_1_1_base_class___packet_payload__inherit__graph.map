@@ -1,0 +1,5 @@
+<map id="Clean_BaseLib.BaseClass_PacketPayload" name="Clean_BaseLib.BaseClass_PacketPayload">
+<area shape="rect" id="node1" title="BaseClass_PacketPayload is the abstract payload class used to transfer serialized values through the ..." alt="" coords="5,256,181,348"/>
+<area shape="rect" id="node2" href="$df/dac/interface_clean___base_lib_1_1_i_serial_value_collection.html" title="The interface for packets, headers, and payloads" alt="" coords="19,131,167,208"/>
+<area shape="rect" id="node3" title=" " alt="" coords="47,5,139,83"/>
+</map>
