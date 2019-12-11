@@ -19,7 +19,7 @@
 </g>
 <!-- Node0 -->
 <g id="node2" class="node"><title>Node0</title>
-<g id="a_node2"><a xlink:href="da/d49/class_clean___base_lib_1_1_base_class___serial_value.html" target="_top" xlink:title="BaseClass_SerialValue is the abstract class for values moved in packets">
+<g id="a_node2"><a xlink:href="class_clean___base_lib_1_1_base_class___serial_value.html" target="_top" xlink:title="BaseClass_SerialValue is the abstract class for values moved in packets">
 <polygon fill="white" stroke="black" points="107.5,-98.5 107.5,-128.5 239.5,-128.5 239.5,-98.5 107.5,-98.5"/>
 <text text-anchor="start" x="115.5" y="-116.5" font-family="Helvetica,sans-Serif" font-size="10.00">Clean_BaseLib.BaseClass</text>
 <text text-anchor="middle" x="173.5" y="-105.5" font-family="Helvetica,sans-Serif" font-size="10.00">_SerialValue</text>
@@ -33,7 +33,7 @@
 </g>
 <!-- Node5 -->
 <g id="node3" class="node"><title>Node5</title>
-<g id="a_node3"><a xlink:href="df/dac/interface_clean___base_lib_1_1_i_serial_value_collection.html" target="_top" xlink:title="The interface for packets, headers, and payloads">
+<g id="a_node3"><a xlink:href="interface_clean___base_lib_1_1_i_serial_value_collection.html" target="_top" xlink:title="The interface for packets, headers, and payloads">
 <polygon fill="white" stroke="black" points="105,-49.5 105,-79.5 242,-79.5 242,-49.5 105,-49.5"/>
 <text text-anchor="start" x="113" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00">Clean_BaseLib.ISerialValue</text>
 <text text-anchor="middle" x="173.5" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00">Collection</text>
@@ -47,7 +47,7 @@
 </g>
 <!-- Node6 -->
 <g id="node4" class="node"><title>Node6</title>
-<g id="a_node4"><a xlink:href="d0/da5/class_clean___base_lib_1_1_base_class___packet.html" target="_top" xlink:title="BaseClass_Packet is the abstract packet class implementing the ISerialValueCollection interface.">
+<g id="a_node4"><a xlink:href="class_clean___base_lib_1_1_base_class___packet.html" target="_top" xlink:title="BaseClass_Packet is the abstract packet class implementing the ISerialValueCollection interface.">
 <polygon fill="white" stroke="black" points="278,-98.5 278,-128.5 410,-128.5 410,-98.5 278,-98.5"/>
 <text text-anchor="start" x="286" y="-116.5" font-family="Helvetica,sans-Serif" font-size="10.00">Clean_BaseLib.BaseClass</text>
 <text text-anchor="middle" x="344" y="-105.5" font-family="Helvetica,sans-Serif" font-size="10.00">_Packet</text>
@@ -61,7 +61,7 @@
 </g>
 <!-- Node7 -->
 <g id="node5" class="node"><title>Node7</title>
-<g id="a_node5"><a xlink:href="d9/dba/class_clean___base_lib_1_1_base_class___packet_header.html" target="_top" xlink:title="BaseClass_PacketHeader is the abstract header class used for routing and identification of the packet...">
+<g id="a_node5"><a xlink:href="class_clean___base_lib_1_1_base_class___packet_header.html" target="_top" xlink:title="BaseClass_PacketHeader is the abstract header class used for routing and identification of the packet...">
 <polygon fill="white" stroke="black" points="278,-49.5 278,-79.5 410,-79.5 410,-49.5 278,-49.5"/>
 <text text-anchor="start" x="286" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00">Clean_BaseLib.BaseClass</text>
 <text text-anchor="middle" x="344" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00">_PacketHeader</text>
@@ -75,7 +75,7 @@
 </g>
 <!-- Node8 -->
 <g id="node6" class="node"><title>Node8</title>
-<g id="a_node6"><a xlink:href="dc/d32/class_clean___base_lib_1_1_base_class___packet_payload.html" target="_top" xlink:title="BaseClass_PacketPayload is the abstract payload class used to transfer serialized values through the ...">
+<g id="a_node6"><a xlink:href="class_clean___base_lib_1_1_base_class___packet_payload.html" target="_top" xlink:title="BaseClass_PacketPayload is the abstract payload class used to transfer serialized values through the ...">
 <polygon fill="white" stroke="black" points="278,-0.5 278,-30.5 410,-30.5 410,-0.5 278,-0.5"/>
 <text text-anchor="start" x="286" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">Clean_BaseLib.BaseClass</text>
 <text text-anchor="middle" x="344" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">_PacketPayload</text>
