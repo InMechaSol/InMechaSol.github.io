@@ -10,14 +10,6 @@
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
-<link href="navtree.css" rel="stylesheet" type="text/css"/>
-<script type="text/javascript" src="resize.js"></script>
-<script type="text/javascript" src="navtreedata.js"></script>
-<script type="text/javascript" src="navtree.js"></script>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
-  $(document).ready(initResizable);
-/* @license-end */</script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
@@ -26,16 +18,16 @@
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
-<div id="titlearea">
-<table cellspacing="0" cellpadding="0">
+<div id="titlearea" >
+<table cellspacing="2" cellpadding="2" style="border-spacing: 0px;">
  <tbody>
- <tr style="height: 28px;">
-  <td id="projectlogo"><a href="/index.html"> <img alt="Logo" src="IMS_Sinusoid_Black.png"/></a></td>
-  <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">InMechaSol
-   &#160;<span id="projectnumber">0.0.0.0</span>
+ <tr style="height: 7vh;">
+  <td id="projectlogo"><a href="/Index"> <img alt="Logo" src="IMS_Sinusoid_Black.png" style="height: 7vh;"/></a></td>
+  <td id="projectalign" style="padding-left: 0.5em;" style="height: 7vh;">
+   <div id="projectname" style="height: 5vh;">InMechaSol
+   &#160;<span id="projectnumber" >0.0.0.0</span>
    </div>
-   <div id="projectbrief">InMechaSol&#39;s Doxygen API Pages</div>
+   <div id="projectbrief" style="height: 2vh;">Doxygen API Pages</div>
   </td>
  </tr>
  </tbody>
@@ -59,22 +51,6 @@ $(function() {
 /* @license-end */</script>
 <div id="main-nav"></div>
 </div><!-- top -->
-<div id="side-nav" class="ui-resizable side-nav-resizable">
-  <div id="nav-tree">
-    <div id="nav-tree-contents">
-      <div id="nav-sync" class="sync"></div>
-    </div>
-  </div>
-  <div id="splitbar" style="-moz-user-select:none;" 
-       class="ui-resizable-handle">
-  </div>
-</div>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
-$(document).ready(function(){initNavTree('functions_func.html','');});
-/* @license-end */
-</script>
-<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -91,20 +67,47 @@ $(document).ready(function(){initNavTree('functions_func.html','');});
 
 <div class="contents">
 &#160;<ul>
+<li>ApplicationExceptionHandler()
+: <a class="el" href="da/dbd/class_clean___base_lib_1_1_base_class___module_execution_system.html#a489a471605407efe85ceee4b7c4496fc">Clean_BaseLib.BaseClass_ModuleExecutionSystem</a>
+</li>
 <li>BaseClass_CommandResponse()
 : <a class="el" href="db/da7/class_clean___base_lib_1_1_base_class___command_response.html#a5b45e6535ebb482db0f69bd2d40c0ece">Clean_BaseLib.BaseClass_CommandResponse</a>
 </li>
+<li>BaseClass_Module()
+: <a class="el" href="d7/d06/class_clean___base_lib_1_1_base_class___module.html#acd7853b4d55e5191e629091d6a4487a2">Clean_BaseLib.BaseClass_Module</a>
+</li>
+<li>BaseClass_ModuleExecutionSystem()
+: <a class="el" href="da/dbd/class_clean___base_lib_1_1_base_class___module_execution_system.html#afa0b4be93d6b02fd05ef7330bf6db1d7">Clean_BaseLib.BaseClass_ModuleExecutionSystem</a>
+</li>
+<li>Execute()
+: <a class="el" href="da/dbd/class_clean___base_lib_1_1_base_class___module_execution_system.html#a06fec2aa3a7697155c8fcf32bcf07788">Clean_BaseLib.BaseClass_ModuleExecutionSystem</a>
+</li>
+<li>GetObjectData()
+: <a class="el" href="d0/da5/class_clean___base_lib_1_1_base_class___packet.html#a1b14744e10aa23366f39abb1c6326523">Clean_BaseLib.BaseClass_Packet</a>
+, <a class="el" href="d9/dba/class_clean___base_lib_1_1_base_class___packet_header.html#a250fea1cb3a540e726faef4ed0e3e9a5">Clean_BaseLib.BaseClass_PacketHeader</a>
+, <a class="el" href="dc/d32/class_clean___base_lib_1_1_base_class___packet_payload.html#a5ab24be3fab71f52f13a98a1f26e75f2">Clean_BaseLib.BaseClass_PacketPayload</a>
+, <a class="el" href="da/d49/class_clean___base_lib_1_1_base_class___serial_value.html#a4572ff5454eb41309bb35dcd1d9973c3">Clean_BaseLib.BaseClass_SerialValue</a>
+</li>
+<li>linkModuleExeSys()
+: <a class="el" href="d7/d06/class_clean___base_lib_1_1_base_class___module.html#ab95f3061b04c0eb537e6de2a1d6c903a">Clean_BaseLib.BaseClass_Module</a>
+</li>
+<li>linkModuleObj()
+: <a class="el" href="da/dbd/class_clean___base_lib_1_1_base_class___module_execution_system.html#a1ee7630068a86a5117920811ee068306">Clean_BaseLib.BaseClass_ModuleExecutionSystem</a>
+</li>
+<li>mainInit()
+: <a class="el" href="d7/d06/class_clean___base_lib_1_1_base_class___module.html#ae0d364c39c27bbf6d28ae9dce6256563">Clean_BaseLib.BaseClass_Module</a>
+</li>
+<li>mainLoop()
+: <a class="el" href="d7/d06/class_clean___base_lib_1_1_base_class___module.html#a0ad34599a81dba066e8b8dda2f9f8ef0">Clean_BaseLib.BaseClass_Module</a>
+</li>
 </ul>
 </div><!-- contents -->
-</div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.15-->
 <!-- start footer part -->
-<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
-  <ul>
-    <li class="footer">Generated on Sun Nov 24 2019 04:17:41 for InMechaSol by
-    <a href="http://www.doxygen.org/index.html">
-    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.15 </li>
-  </ul>
-</div>
+<hr class="footer"/><address class="footer"><small>
+Generated on Tue Dec 10 2019 11:05:21 for InMechaSol by &#160;<a href="http://www.doxygen.org/index.html">
+doxygen
+</a> 1.8.15
+</small></address>
 </body>
 </html>

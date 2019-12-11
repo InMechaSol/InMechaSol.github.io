@@ -10,14 +10,6 @@
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
-<link href="../../navtree.css" rel="stylesheet" type="text/css"/>
-<script type="text/javascript" src="../../resize.js"></script>
-<script type="text/javascript" src="../../navtreedata.js"></script>
-<script type="text/javascript" src="../../navtree.js"></script>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
-  $(document).ready(initResizable);
-/* @license-end */</script>
 <link href="../../search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../search/searchdata.js"></script>
 <script type="text/javascript" src="../../search/search.js"></script>
@@ -26,16 +18,16 @@
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
-<div id="titlearea">
-<table cellspacing="0" cellpadding="0">
+<div id="titlearea" >
+<table cellspacing="2" cellpadding="2" style="border-spacing: 0px;">
  <tbody>
- <tr style="height: 28px;">
-  <td id="projectlogo"><a href="/index.html"> <img alt="Logo" src="../../IMS_Sinusoid_Black.png"/></a></td>
-  <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">InMechaSol
-   &#160;<span id="projectnumber">0.0.0.0</span>
+ <tr style="height: 7vh;">
+  <td id="projectlogo"><a href="/Index"> <img alt="Logo" src="../../IMS_Sinusoid_Black.png" style="height: 7vh;"/></a></td>
+  <td id="projectalign" style="padding-left: 0.5em;" style="height: 7vh;">
+   <div id="projectname" style="height: 5vh;">InMechaSol
+   &#160;<span id="projectnumber" >0.0.0.0</span>
    </div>
-   <div id="projectbrief">InMechaSol&#39;s Doxygen API Pages</div>
+   <div id="projectbrief" style="height: 2vh;">Doxygen API Pages</div>
   </td>
  </tr>
  </tbody>
@@ -58,23 +50,6 @@ $(function() {
 });
 /* @license-end */</script>
 <div id="main-nav"></div>
-</div><!-- top -->
-<div id="side-nav" class="ui-resizable side-nav-resizable">
-  <div id="nav-tree">
-    <div id="nav-tree-contents">
-      <div id="nav-sync" class="sync"></div>
-    </div>
-  </div>
-  <div id="splitbar" style="-moz-user-select:none;" 
-       class="ui-resizable-handle">
-  </div>
-</div>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
-$(document).ready(function(){initNavTree('d7/d06/class_clean___base_lib_1_1_base_class___module.html','../../');});
-/* @license-end */
-</script>
-<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -89,6 +64,11 @@ $(document).ready(function(){initNavTree('d7/d06/class_clean___base_lib_1_1_base
 </iframe>
 </div>
 
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="../../d7/d1f/namespace_clean___base_lib.html">Clean_BaseLib</a></li><li class="navelem"><a class="el" href="../../d7/d06/class_clean___base_lib_1_1_base_class___module.html">BaseClass_Module</a></li>  </ul>
+</div>
+</div><!-- top -->
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
@@ -99,43 +79,194 @@ $(document).ready(function(){initNavTree('d7/d06/class_clean___base_lib_1_1_base
 </div><!--header-->
 <div class="contents">
 
+<p><a class="el" href="../../d7/d06/class_clean___base_lib_1_1_base_class___module.html" title="BaseClass_Module abstract class is the fundamental executional element of the modular clean system.">BaseClass_Module</a> abstract class is the fundamental executional element of the modular clean system.  
+ <a href="../../d7/d06/class_clean___base_lib_1_1_base_class___module.html#details">More...</a></p>
+
 <p>Inherited by <a class="el" href="../../d3/dd3/class_m_d_s___core_lib_1_1_m_d_s___code_generation_module.html">MDS_CoreLib.MDS_CodeGenerationModule</a>, <a class="el" href="../../d2/df4/class_m_d_s___core_lib_1_1_m_d_s___sandbox_module.html">MDS_CoreLib.MDS_SandboxModule</a>, <a class="el" href="../../de/dc0/class_m_d_s___core_lib_1_1_m_d_s___simulation_module.html">MDS_CoreLib.MDS_SimulationModule</a>, and <a class="el" href="../../d0/d84/class_m_d_s___core_lib_1_1_m_d_s___user_module.html">MDS_CoreLib.MDS_UserModule</a>.</p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a7893ad77afd35890e4c2f258cec409d8"><td class="memItemLeft" align="right" valign="top"><a id="a7893ad77afd35890e4c2f258cec409d8"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>BaseClass_Module</b> (<a class="el" href="../../da/dbd/class_clean___base_lib_1_1_base_class___module_execution_system.html">BaseClass_ModuleExecutionSystem</a> modExeSys)</td></tr>
+<tr class="memitem:acd7853b4d55e5191e629091d6a4487a2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d06/class_clean___base_lib_1_1_base_class___module.html#acd7853b4d55e5191e629091d6a4487a2">BaseClass_Module</a> ()</td></tr>
+<tr class="memdesc:acd7853b4d55e5191e629091d6a4487a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor from nothing  <a href="#acd7853b4d55e5191e629091d6a4487a2">More...</a><br /></td></tr>
+<tr class="separator:acd7853b4d55e5191e629091d6a4487a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7893ad77afd35890e4c2f258cec409d8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d06/class_clean___base_lib_1_1_base_class___module.html#a7893ad77afd35890e4c2f258cec409d8">BaseClass_Module</a> (<a class="el" href="../../da/dbd/class_clean___base_lib_1_1_base_class___module_execution_system.html">BaseClass_ModuleExecutionSystem</a> modExeSys)</td></tr>
+<tr class="memdesc:a7893ad77afd35890e4c2f258cec409d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor from nothing, linking execution system  <a href="#a7893ad77afd35890e4c2f258cec409d8">More...</a><br /></td></tr>
 <tr class="separator:a7893ad77afd35890e4c2f258cec409d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae0d364c39c27bbf6d28ae9dce6256563"><td class="memItemLeft" align="right" valign="top"><a id="ae0d364c39c27bbf6d28ae9dce6256563"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>mainInit</b> ()</td></tr>
+<tr class="memitem:ae0d364c39c27bbf6d28ae9dce6256563"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d06/class_clean___base_lib_1_1_base_class___module.html#ae0d364c39c27bbf6d28ae9dce6256563">mainInit</a> ()</td></tr>
+<tr class="memdesc:ae0d364c39c27bbf6d28ae9dce6256563"><td class="mdescLeft">&#160;</td><td class="mdescRight">Entry Point Function - Main Initialiazation routine called in the initialization loop of the execution system.  <a href="#ae0d364c39c27bbf6d28ae9dce6256563">More...</a><br /></td></tr>
 <tr class="separator:ae0d364c39c27bbf6d28ae9dce6256563"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0ad34599a81dba066e8b8dda2f9f8ef0"><td class="memItemLeft" align="right" valign="top"><a id="a0ad34599a81dba066e8b8dda2f9f8ef0"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>mainLoop</b> ()</td></tr>
+<tr class="memitem:a0ad34599a81dba066e8b8dda2f9f8ef0"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d06/class_clean___base_lib_1_1_base_class___module.html#a0ad34599a81dba066e8b8dda2f9f8ef0">mainLoop</a> ()</td></tr>
+<tr class="memdesc:a0ad34599a81dba066e8b8dda2f9f8ef0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Entry Point Function - Main Cyclic routine called in the main loop of the execution system.  <a href="#a0ad34599a81dba066e8b8dda2f9f8ef0">More...</a><br /></td></tr>
 <tr class="separator:a0ad34599a81dba066e8b8dda2f9f8ef0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:ab95f3061b04c0eb537e6de2a1d6c903a"><td class="memItemLeft" align="right" valign="top"><a id="ab95f3061b04c0eb537e6de2a1d6c903a"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>linkModuleExeSys</b> (<a class="el" href="../../da/dbd/class_clean___base_lib_1_1_base_class___module_execution_system.html">BaseClass_ModuleExecutionSystem</a> modExeSys)</td></tr>
+<tr class="memitem:ab95f3061b04c0eb537e6de2a1d6c903a"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d06/class_clean___base_lib_1_1_base_class___module.html#ab95f3061b04c0eb537e6de2a1d6c903a">linkModuleExeSys</a> (<a class="el" href="../../da/dbd/class_clean___base_lib_1_1_base_class___module_execution_system.html">BaseClass_ModuleExecutionSystem</a> modExeSys)</td></tr>
+<tr class="memdesc:ab95f3061b04c0eb537e6de2a1d6c903a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function to link input execution system to this module object  <a href="#ab95f3061b04c0eb537e6de2a1d6c903a">More...</a><br /></td></tr>
 <tr class="separator:ab95f3061b04c0eb537e6de2a1d6c903a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../de/dad/_base_class___module_8cs_source.html#l00008">8</a> of file <a class="el" href="../../de/dad/_base_class___module_8cs_source.html">BaseClass_Module.cs</a>.</p>
-</div><hr/>The documentation for this class was generated from the following file:<ul>
+<div class="textblock"><p><a class="el" href="../../d7/d06/class_clean___base_lib_1_1_base_class___module.html" title="BaseClass_Module abstract class is the fundamental executional element of the modular clean system.">BaseClass_Module</a> abstract class is the fundamental executional element of the modular clean system. </p>
+<p>Modules know of, and therefore depend on, the module execuiton system on which they execute. Modules inheriting from this class have entry point functions called by the execution system according to its rules. </p>
+
+<p class="definition">Definition at line <a class="el" href="../../de/dad/_base_class___module_8cs_source.html#l00016">16</a> of file <a class="el" href="../../de/dad/_base_class___module_8cs_source.html">BaseClass_Module.cs</a>.</p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="acd7853b4d55e5191e629091d6a4487a2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acd7853b4d55e5191e629091d6a4487a2">&#9670;&nbsp;</a></span>BaseClass_Module() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Clean_BaseLib.BaseClass_Module.BaseClass_Module </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Constructor from nothing </p>
+
+<p class="definition">Definition at line <a class="el" href="../../de/dad/_base_class___module_8cs_source.html#l00022">22</a> of file <a class="el" href="../../de/dad/_base_class___module_8cs_source.html">BaseClass_Module.cs</a>.</p>
+<div class="fragment"><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        {</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        }</div></div><!-- fragment -->
+</div>
+</div>
+<a id="a7893ad77afd35890e4c2f258cec409d8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7893ad77afd35890e4c2f258cec409d8">&#9670;&nbsp;</a></span>BaseClass_Module() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Clean_BaseLib.BaseClass_Module.BaseClass_Module </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../da/dbd/class_clean___base_lib_1_1_base_class___module_execution_system.html">BaseClass_ModuleExecutionSystem</a>&#160;</td>
+          <td class="paramname"><em>modExeSys</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Constructor from nothing, linking execution system </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">modExeSys</td><td>Execution System to which this module belongs and from which it executes</td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="../../de/dad/_base_class___module_8cs_source.html#l00030">30</a> of file <a class="el" href="../../de/dad/_base_class___module_8cs_source.html">BaseClass_Module.cs</a>.</p>
+<div class="fragment"><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;        {</div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;            UserCmdResps = <span class="keyword">new</span> ConcurrentQueue&lt;BaseClass_CommandResponse&gt;();</div><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;</div><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;            <a class="code" href="../../d7/d06/class_clean___base_lib_1_1_base_class___module.html#ab95f3061b04c0eb537e6de2a1d6c903a">linkModuleExeSys</a>(modExeSys);</div><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        }</div><div class="ttc" id="class_clean___base_lib_1_1_base_class___module_html_ab95f3061b04c0eb537e6de2a1d6c903a"><div class="ttname"><a href="../../d7/d06/class_clean___base_lib_1_1_base_class___module.html#ab95f3061b04c0eb537e6de2a1d6c903a">Clean_BaseLib.BaseClass_Module.linkModuleExeSys</a></div><div class="ttdeci">virtual void linkModuleExeSys(BaseClass_ModuleExecutionSystem modExeSys)</div><div class="ttdoc">Function to link input execution system to this module object</div><div class="ttdef"><b>Definition:</b> <a href="../../de/dad/_base_class___module_8cs_source.html#l00060">BaseClass_Module.cs:60</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="ab95f3061b04c0eb537e6de2a1d6c903a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab95f3061b04c0eb537e6de2a1d6c903a">&#9670;&nbsp;</a></span>linkModuleExeSys()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void Clean_BaseLib.BaseClass_Module.linkModuleExeSys </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../da/dbd/class_clean___base_lib_1_1_base_class___module_execution_system.html">BaseClass_ModuleExecutionSystem</a>&#160;</td>
+          <td class="paramname"><em>modExeSys</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Function to link input execution system to this module object </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">modExeSys</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="../../de/dad/_base_class___module_8cs_source.html#l00060">60</a> of file <a class="el" href="../../de/dad/_base_class___module_8cs_source.html">BaseClass_Module.cs</a>.</p>
+<div class="fragment"><div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;        {</div><div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;            moduleExecutionSystem = modExeSys;</div><div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;            modExeSys.<a class="code" href="../../da/dbd/class_clean___base_lib_1_1_base_class___module_execution_system.html#a1ee7630068a86a5117920811ee068306">linkModuleObj</a>(<span class="keyword">this</span>);</div><div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;        }</div><div class="ttc" id="class_clean___base_lib_1_1_base_class___module_execution_system_html_a1ee7630068a86a5117920811ee068306"><div class="ttname"><a href="../../da/dbd/class_clean___base_lib_1_1_base_class___module_execution_system.html#a1ee7630068a86a5117920811ee068306">Clean_BaseLib.BaseClass_ModuleExecutionSystem.linkModuleObj</a></div><div class="ttdeci">void linkModuleObj(BaseClass_Module module)</div><div class="ttdoc">helper function to link module, add it to the list of exe modules</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d67/_base_class___module_execution_system_8cs_source.html#l00140">BaseClass_ModuleExecutionSystem.cs:140</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="ae0d364c39c27bbf6d28ae9dce6256563"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae0d364c39c27bbf6d28ae9dce6256563">&#9670;&nbsp;</a></span>mainInit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void Clean_BaseLib.BaseClass_Module.mainInit </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Entry Point Function - Main Initialiazation routine called in the initialization loop of the execution system. </p>
+
+<p class="definition">Definition at line <a class="el" href="../../de/dad/_base_class___module_8cs_source.html#l00042">42</a> of file <a class="el" href="../../de/dad/_base_class___module_8cs_source.html">BaseClass_Module.cs</a>.</p>
+<div class="fragment"><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        {</div><div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;            ;</div><div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        }</div></div><!-- fragment -->
+</div>
+</div>
+<a id="a0ad34599a81dba066e8b8dda2f9f8ef0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0ad34599a81dba066e8b8dda2f9f8ef0">&#9670;&nbsp;</a></span>mainLoop()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void Clean_BaseLib.BaseClass_Module.mainLoop </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Entry Point Function - Main Cyclic routine called in the main loop of the execution system. </p>
+
+<p class="definition">Definition at line <a class="el" href="../../de/dad/_base_class___module_8cs_source.html#l00049">49</a> of file <a class="el" href="../../de/dad/_base_class___module_8cs_source.html">BaseClass_Module.cs</a>.</p>
+<div class="fragment"><div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        {</div><div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;            ;</div><div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;        }</div></div><!-- fragment -->
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
 <li>C:/InMechaSol/MDS_Server/MDS_Application/0_CleanBaseLib/<a class="el" href="../../de/dad/_base_class___module_8cs_source.html">BaseClass_Module.cs</a></li>
 </ul>
 </div><!-- contents -->
-</div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.15-->
 <!-- start footer part -->
-<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
-  <ul>
-    <li class="navelem"><a class="el" href="../../d7/d1f/namespace_clean___base_lib.html">Clean_BaseLib</a></li><li class="navelem"><a class="el" href="../../d7/d06/class_clean___base_lib_1_1_base_class___module.html">BaseClass_Module</a></li>
-    <li class="footer">Generated on Sun Nov 24 2019 04:17:39 for InMechaSol by
-    <a href="http://www.doxygen.org/index.html">
-    <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.15 </li>
-  </ul>
-</div>
+<hr class="footer"/><address class="footer"><small>
+Generated on Tue Dec 10 2019 11:05:20 for InMechaSol by &#160;<a href="http://www.doxygen.org/index.html">
+doxygen
+</a> 1.8.15
+</small></address>
 </body>
 </html>

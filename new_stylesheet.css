@@ -1279,7 +1279,7 @@ dl.section dd {
 
 #projectname
 {
-	font: 300% Tahoma, Arial,sans-serif;
+	font: 250% Tahoma, Arial,sans-serif;
 	margin: 0px;
 	padding: 2px 0px;
 }
@@ -1302,6 +1302,7 @@ dl.section dd {
 {
 	padding: 0px;
 	margin: 0px;
+	height: 8vh;
 	width: 100%;
 	border-bottom: 1px solid #5373B4;
 }
