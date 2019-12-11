@@ -1,8 +1,9 @@
 <map id="Clean_BaseLib.BaseClass_Module" name="Clean_BaseLib.BaseClass_Module">
-<area shape="rect" id="node1" title="BaseClass_Module abstract class is the fundamental executional element of the modular clean system." alt="" coords="415,5,591,185"/>
-<area shape="rect" id="node2" href="$d3/dd3/class_m_d_s___core_lib_1_1_m_d_s___code_generation_module.html" title=" " alt="" coords="5,233,240,325"/>
-<area shape="rect" id="node3" href="$d2/df4/class_m_d_s___core_lib_1_1_m_d_s___sandbox_module.html" title=" " alt="" coords="264,241,499,318"/>
-<area shape="rect" id="node4" href="$de/dc0/class_m_d_s___core_lib_1_1_m_d_s___simulation_module.html" title=" " alt="" coords="523,233,725,325"/>
-<area shape="rect" id="node5" href="$d0/d84/class_m_d_s___core_lib_1_1_m_d_s___user_module.html" title=" " alt="" coords="749,241,960,318"/>
-<area shape="rect" id="node6" href="$da/d0a/class_m_d_s___application_1_1_user_module___s_t_d___i_o.html" title=" " alt="" coords="757,373,952,465"/>
+<area shape="rect" id="node1" title="BaseClass_Module abstract class is the fundamental executional element of the modular clean system." alt="" coords="501,5,677,185"/>
+<area shape="rect" id="node2" href="$d4/d77/class_m_d_s___code_generation_1_1_m_d_s___code_gen_module.html" title=" " alt="" coords="5,233,189,325"/>
+<area shape="rect" id="node3" href="$d3/dd3/class_m_d_s___core_lib_1_1_m_d_s___code_generation_module.html" title=" " alt="" coords="213,233,448,325"/>
+<area shape="rect" id="node4" href="$d2/df4/class_m_d_s___core_lib_1_1_m_d_s___sandbox_module.html" title=" " alt="" coords="472,241,707,318"/>
+<area shape="rect" id="node5" href="$de/dc0/class_m_d_s___core_lib_1_1_m_d_s___simulation_module.html" title=" " alt="" coords="731,233,933,325"/>
+<area shape="rect" id="node6" href="$d0/d84/class_m_d_s___core_lib_1_1_m_d_s___user_module.html" title=" " alt="" coords="957,241,1168,318"/>
+<area shape="rect" id="node7" href="$da/d0a/class_m_d_s___application_1_1_user_module___s_t_d___i_o.html" title=" " alt="" coords="965,373,1160,465"/>
 </map>
