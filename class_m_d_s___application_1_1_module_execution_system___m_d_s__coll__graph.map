@@ -1,8 +1,0 @@
-<map id="MDS_Application.ModuleExecutionSystem_MDS" name="MDS_Application.ModuleExecutionSystem_MDS">
-<area shape="rect" id="node1" title=" " alt="" coords="229,648,456,740"/>
-<area shape="rect" id="node2" href="$class_m_d_s___core_lib_1_1_m_d_s___execution_system.html" title=" " alt="" coords="241,507,445,599"/>
-<area shape="rect" id="node3" href="$class_clean___base_lib_1_1_base_class___module_execution_system.html" title="Abstract class defining core modular and clean concepts" alt="" coords="5,235,213,444"/>
-<area shape="rect" id="node4" href="$class_m_d_s___core_lib_1_1_m_d_s___user_module.html" title=" " alt="" coords="237,301,448,378"/>
-<area shape="rect" id="node5" href="$class_clean___base_lib_1_1_base_class___module.html" title="BaseClass_Module abstract class is the fundamental executional element of the modular clean system." alt="" coords="402,5,582,185"/>
-<area shape="rect" id="node6" href="$class_m_d_s___core_lib_1_1_m_d_s___sandbox_module.html" title=" " alt="" coords="472,301,707,378"/>
-</map>
