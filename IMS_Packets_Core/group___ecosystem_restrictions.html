@@ -89,13 +89,21 @@ Macros</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <p>Design Configuration for a derived micro-EcoSystem. </p>
-<p>A particular product or application node is fundamentally restricted at compile time by a small set of Design Configuration settings. Any node that "is a" node built from this particular file will be:</p><ul>
-<li>linking the iostream standard library (then optionally using linked standard library)</li>
+<p>A particular product or application node is fundamentally restricted at compile time by a small set of Design Configuration settings. Any node that "is a" node built from this particular file will:</p><ul>
+<li>link the iostream standard library (then optionally use linked library)</li>
 <li>have a common token count that is used to instantiate token buffers</li>
 <li>have a common token string ratio that is used to instantiate string token buffers</li>
 <li>have a common ID string token size that is used to instantiate ID string token buffers</li>
 <li>have a common binary buffer size equal to token count multiplied by token size (configured at application layer)</li>
-<li>have a common string buffer size equal to the string buffer character count macro </li>
+<li>have a common string buffer size equal to the string buffer character count macro</li>
+</ul>
+<p>When reading and writing tokens over a packet interface a buffer (on either the stack, heap, or data/bss sections of RAM) is required. <br  />
+ These limitations provide mathematical gaurantees on static data allocation.</p>
+<p>Testable:</p><ul>
+<li>Functions reading from buffers do not overrun high or low address limits</li>
+<li>Functions writing to buffers do not overrun high or low address limits</li>
+<li>in a defined language, no ID string exceeds ID token ratio limit</li>
+<li>in a defined language, no format string exceeds token ratio limit </li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
