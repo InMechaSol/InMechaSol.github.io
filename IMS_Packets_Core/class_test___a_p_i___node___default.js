@@ -1,10 +1,9 @@
 var class_test___a_p_i___node___default =
 [
-    [ "Test_API_Node_Default", "class_test___a_p_i___node___default.html#abe910c9e0bd8efe8a29fee047cdbd545", null ],
-    [ "API_CustomShared_HandleRx", "class_test___a_p_i___node___default.html#af8e0e541182ef8f7aaebbb43629f8724", null ],
-    [ "API_CustomShared_PrepareTx", "class_test___a_p_i___node___default.html#ab8061d00985fad1354b9ef100ac80ffc", null ],
-    [ "CustomLoop", "class_test___a_p_i___node___default.html#a3d52d6379db6adf6e96006be236317ab", null ],
-    [ "Setup", "class_test___a_p_i___node___default.html#aae26d190088616d53af23182deedb8af", null ],
-    [ "VERSION_Handler", "class_test___a_p_i___node___default.html#a3cf276616e01d4868a2e43a888c06352", null ],
-    [ "VERSION_Packager", "class_test___a_p_i___node___default.html#a01fe70128cd6e00afaa9470e96b5d842", null ]
+    [ "Test_API_Node_Default", "class_test___a_p_i___node___default.html#a3339ea3fe7a975509b6407d0ecc1323c", null ],
+    [ "API_CustomShared_HandleRx", "class_test___a_p_i___node___default.html#aa7bc1221462a4a130cd033e033c73d11", null ],
+    [ "API_CustomShared_PrepareTx", "class_test___a_p_i___node___default.html#a066ab51883b39c3fbdf5b34740b9b2b6", null ],
+    [ "CustomLoop", "class_test___a_p_i___node___default.html#ab6b3e105bf0c0d5d0e27b890e7e3f994", null ],
+    [ "Handler_VERSION", "class_test___a_p_i___node___default.html#aaa8498bd7e6490e91790064d9f3b02d7", null ],
+    [ "Packager_VERSION", "class_test___a_p_i___node___default.html#a26488e8c380cf825f9574500ad2ef56f", null ]
 ];

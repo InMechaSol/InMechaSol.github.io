@@ -53,8 +53,8 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"",
-"pages.html"
+"0___eco_system_restrictions_8h.html",
+"group___language_constructs.html#ga3011fd31f84b522ed5d09f63c1135692"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

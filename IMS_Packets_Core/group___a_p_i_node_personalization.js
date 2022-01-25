@@ -1,22 +1,21 @@
 var group___a_p_i_node_personalization =
 [
     [ "Test_API_Node_Default", "class_test___a_p_i___node___default.html", [
-      [ "Test_API_Node_Default", "class_test___a_p_i___node___default.html#abe910c9e0bd8efe8a29fee047cdbd545", null ],
-      [ "API_CustomShared_HandleRx", "class_test___a_p_i___node___default.html#af8e0e541182ef8f7aaebbb43629f8724", null ],
-      [ "API_CustomShared_PrepareTx", "class_test___a_p_i___node___default.html#ab8061d00985fad1354b9ef100ac80ffc", null ],
-      [ "CustomLoop", "class_test___a_p_i___node___default.html#a3d52d6379db6adf6e96006be236317ab", null ],
-      [ "Setup", "class_test___a_p_i___node___default.html#aae26d190088616d53af23182deedb8af", null ],
-      [ "VERSION_Handler", "class_test___a_p_i___node___default.html#a3cf276616e01d4868a2e43a888c06352", null ],
-      [ "VERSION_Packager", "class_test___a_p_i___node___default.html#a01fe70128cd6e00afaa9470e96b5d842", null ]
+      [ "Test_API_Node_Default", "class_test___a_p_i___node___default.html#a3339ea3fe7a975509b6407d0ecc1323c", null ],
+      [ "API_CustomShared_HandleRx", "class_test___a_p_i___node___default.html#aa7bc1221462a4a130cd033e033c73d11", null ],
+      [ "API_CustomShared_PrepareTx", "class_test___a_p_i___node___default.html#a066ab51883b39c3fbdf5b34740b9b2b6", null ],
+      [ "CustomLoop", "class_test___a_p_i___node___default.html#ab6b3e105bf0c0d5d0e27b890e7e3f994", null ],
+      [ "Handler_VERSION", "class_test___a_p_i___node___default.html#aaa8498bd7e6490e91790064d9f3b02d7", null ],
+      [ "Packager_VERSION", "class_test___a_p_i___node___default.html#a26488e8c380cf825f9574500ad2ef56f", null ]
     ] ],
-    [ "TestASCIIConsole_InputInterface", "class_test_a_s_c_i_i_console___input_interface.html", [
-      [ "TestASCIIConsole_InputInterface", "class_test_a_s_c_i_i_console___input_interface.html#afc42cc8888c090d9c543b016f8f78535", null ],
-      [ "CustomReadFrom", "class_test_a_s_c_i_i_console___input_interface.html#a19fe33aa757b54c175fec814af24fd91", null ],
-      [ "DeSerializePacket", "class_test_a_s_c_i_i_console___input_interface.html#a00b8500e271aa60c358650186c6814d6", null ]
+    [ "Test_std_cin_Interface", "class_test__std__cin___interface.html", [
+      [ "Test_std_cin_Interface", "class_test__std__cin___interface.html#a39c2a018fac90cb239604ff14c5e5007", null ],
+      [ "CustomReadFrom", "class_test__std__cin___interface.html#a2d28cfc3f16ae1dfb93d9c781ea0c258", null ],
+      [ "DeSerializePacket", "class_test__std__cin___interface.html#aec81f0c8c9c819d18d4c48b9c0eb11a0", null ]
     ] ],
-    [ "TestASCIIConsole_OutputInterface", "class_test_a_s_c_i_i_console___output_interface.html", [
-      [ "TestASCIIConsole_OutputInterface", "class_test_a_s_c_i_i_console___output_interface.html#a28ef09dff698cd201cffbe5d898b2604", null ],
-      [ "CustomWriteTo", "class_test_a_s_c_i_i_console___output_interface.html#afc33e532cb0373f57f569952f492f90c", null ],
-      [ "SerializePacket", "class_test_a_s_c_i_i_console___output_interface.html#a69fc2358d70cc6d86e0bff72a3c4a6cc", null ]
+    [ "Test_std_cout_Interface", "class_test__std__cout___interface.html", [
+      [ "Test_std_cout_Interface", "class_test__std__cout___interface.html#acb3f9fb480905ec83e6fd11cc90ff911", null ],
+      [ "CustomWriteTo", "class_test__std__cout___interface.html#a1e7bb276d6c798bfa959956a21db31f7", null ],
+      [ "SerializePacket", "class_test__std__cout___interface.html#a9afb77ea9e178730424d6b43c0a2c57c", null ]
     ] ]
 ];

@@ -1,15 +1,19 @@
 var class_i_m_s_packets_a_p_i_core_1_1_packet_interface___a_s_c_i_i =
 [
-    [ "PacketInterface_ASCII", "class_i_m_s_packets_a_p_i_core_1_1_packet_interface___a_s_c_i_i.html#a63f2888bbe8a5b218ddeb1ea1ba4a93f", null ],
-    [ "PacketInterface_ASCII", "class_i_m_s_packets_a_p_i_core_1_1_packet_interface___a_s_c_i_i.html#ace12197dcbffc2801dcaf9dc79e514fc", null ],
-    [ "PacketInterface_ASCII", "class_i_m_s_packets_a_p_i_core_1_1_packet_interface___a_s_c_i_i.html#a492afefab41994ddbd7517cc0acb74c6", null ],
-    [ "DeSerializePacket", "class_i_m_s_packets_a_p_i_core_1_1_packet_interface___a_s_c_i_i.html#adb367c4992eb08fa33a9d6145a10eb3b", null ],
-    [ "getPacketPtr", "class_i_m_s_packets_a_p_i_core_1_1_packet_interface___a_s_c_i_i.html#a8b257908e32945b2fdbfcb98f87b1a82", null ],
-    [ "getTokenSize", "class_i_m_s_packets_a_p_i_core_1_1_packet_interface___a_s_c_i_i.html#ab03a02878e5a18808ad586b323cec2c4", null ],
-    [ "ReadFromStream", "class_i_m_s_packets_a_p_i_core_1_1_packet_interface___a_s_c_i_i.html#a84e1a350272b3159d6b0fbbe84323b50", null ],
-    [ "SerializePacket", "class_i_m_s_packets_a_p_i_core_1_1_packet_interface___a_s_c_i_i.html#a721d900d00a634a4ca88bfeb0c60c57d", null ],
-    [ "WriteToStream", "class_i_m_s_packets_a_p_i_core_1_1_packet_interface___a_s_c_i_i.html#ada4810eb9247905a1b7fb16159baf5a3", null ],
-    [ "BufferPacket", "class_i_m_s_packets_a_p_i_core_1_1_packet_interface___a_s_c_i_i.html#a67233654fca752476915136aa6422ce1", null ],
-    [ "CharIndex", "class_i_m_s_packets_a_p_i_core_1_1_packet_interface___a_s_c_i_i.html#acd42ed8850f40fa1a5d946004195b392", null ],
-    [ "TokenBuffer", "class_i_m_s_packets_a_p_i_core_1_1_packet_interface___a_s_c_i_i.html#a1d187d6914d4d6db04c2052d2d48a9a1", null ]
+    [ "PacketInterface_ASCII", "class_i_m_s_packets_a_p_i_core_1_1_packet_interface___a_s_c_i_i.html#a684ca145b2edbcd46348387917d661e7", null ],
+    [ "PacketInterface_ASCII", "class_i_m_s_packets_a_p_i_core_1_1_packet_interface___a_s_c_i_i.html#a614749acfcf84f2654f295e6741ea89c", null ],
+    [ "PacketInterface_ASCII", "class_i_m_s_packets_a_p_i_core_1_1_packet_interface___a_s_c_i_i.html#a64dc20201736fedbefadf92970f637ff", null ],
+    [ "DeSerializePacket", "class_i_m_s_packets_a_p_i_core_1_1_packet_interface___a_s_c_i_i.html#ab1452ed0a71cfadbcdcf61c0fc06e6f6", null ],
+    [ "getPacketPtr", "class_i_m_s_packets_a_p_i_core_1_1_packet_interface___a_s_c_i_i.html#a71d8dce9ad2cfbf8232b4985c168788b", null ],
+    [ "getTokenSize", "class_i_m_s_packets_a_p_i_core_1_1_packet_interface___a_s_c_i_i.html#a8623339442018ffa94267bb10ee56607", null ],
+    [ "ReadFromStream", "class_i_m_s_packets_a_p_i_core_1_1_packet_interface___a_s_c_i_i.html#a5579195fa132a97b8b9075346091be74", null ],
+    [ "ResetdeSerialize", "class_i_m_s_packets_a_p_i_core_1_1_packet_interface___a_s_c_i_i.html#a963292a81c477ef2e156758a1e34a7ab", null ],
+    [ "SerializePacket", "class_i_m_s_packets_a_p_i_core_1_1_packet_interface___a_s_c_i_i.html#a692f85d118646fb2b6c82ef5da11484b", null ],
+    [ "WriteToStream", "class_i_m_s_packets_a_p_i_core_1_1_packet_interface___a_s_c_i_i.html#a0642c809fccd1bee77ed4842f6223907", null ],
+    [ "BufferPacket", "class_i_m_s_packets_a_p_i_core_1_1_packet_interface___a_s_c_i_i.html#aa73536656a7f4ed2c04cb27d452683db", null ],
+    [ "CharIndex", "class_i_m_s_packets_a_p_i_core_1_1_packet_interface___a_s_c_i_i.html#a740432e54e0cd506327475cc107c4817", null ],
+    [ "CharIndexLast", "class_i_m_s_packets_a_p_i_core_1_1_packet_interface___a_s_c_i_i.html#a8e0cd4ff6e0d4b81c0330c8355174780", null ],
+    [ "deSerializedTokenIndex", "class_i_m_s_packets_a_p_i_core_1_1_packet_interface___a_s_c_i_i.html#a4c76ab0f06b118561eb0a5cf6e118992", null ],
+    [ "deSerializeReset", "class_i_m_s_packets_a_p_i_core_1_1_packet_interface___a_s_c_i_i.html#ad34f4968ed6b0b3e3e2bfce63addec79", null ],
+    [ "TokenBuffer", "class_i_m_s_packets_a_p_i_core_1_1_packet_interface___a_s_c_i_i.html#a6ee82ea514437b738a77001bc93e5d51", null ]
 ];

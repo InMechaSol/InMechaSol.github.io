@@ -72,11 +72,10 @@ Inheritance diagram for IMSPacketsAPICore::PacketInterface:</div>
  <div class="center">
   <img src="class_i_m_s_packets_a_p_i_core_1_1_packet_interface.png" usemap="#IMSPacketsAPICore::PacketInterface_map" alt=""/>
   <map id="IMSPacketsAPICore::PacketInterface_map" name="IMSPacketsAPICore::PacketInterface_map">
-<area href="class_i_m_s_packets_a_p_i_core_1_1_packet_interface___a_s_c_i_i.html" title="API Node ASCII Interface for HDR_Packets." alt="IMSPacketsAPICore::PacketInterface_ASCII&lt; TokenType &gt;" shape="rect" coords="0,56,350,80"/>
-<area href="class_i_m_s_packets_a_p_i_core_1_1_packet_interface___binary.html" title="API Node Binary Interface for HDR_Packets." alt="IMSPacketsAPICore::PacketInterface_Binary&lt; TokenType &gt;" shape="rect" coords="360,56,710,80"/>
-<area href="class_i_m_s_packets_a_p_i_core_1_1_packet_interface___a_s_c_i_i.html" alt="IMSPacketsAPICore::PacketInterface_ASCII&lt; SPD4 &gt;" shape="rect" coords="720,56,1070,80"/>
-<area href="class_test_a_s_c_i_i_console___input_interface.html" alt="TestASCIIConsole_InputInterface" shape="rect" coords="540,112,890,136"/>
-<area href="class_test_a_s_c_i_i_console___output_interface.html" alt="TestASCIIConsole_OutputInterface" shape="rect" coords="900,112,1250,136"/>
+<area href="class_i_m_s_packets_a_p_i_core_1_1_packet_interface___a_s_c_i_i.html" title="API Node ASCII Interface for HDR_Packets." alt="IMSPacketsAPICore::PacketInterface_ASCII" shape="rect" coords="180,56,530,80"/>
+<area href="class_i_m_s_packets_a_p_i_core_1_1_packet_interface___binary.html" title="API Node Binary Interface for HDR_Packets." alt="IMSPacketsAPICore::PacketInterface_Binary&lt; TokenType &gt;" shape="rect" coords="540,56,890,80"/>
+<area href="class_test__std__cin___interface.html" alt="Test_std_cin_Interface" shape="rect" coords="0,112,350,136"/>
+<area href="class_test__std__cout___interface.html" alt="Test_std_cout_Interface" shape="rect" coords="360,112,710,136"/>
   </map>
 </div></div>
 <table class="memberdecls">
@@ -85,9 +84,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a8a6b06251dfeaad163cee67cfacfb1b9"><td class="memItemLeft" align="right" valign="top"><a id="a8a6b06251dfeaad163cee67cfacfb1b9"></a>
 virtual int&#160;</td><td class="memItemRight" valign="bottom"><b>getTokenSize</b> ()=0</td></tr>
 <tr class="separator:a8a6b06251dfeaad163cee67cfacfb1b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a42ffc48e258cfe8ebf133ceebe0828c7"><td class="memItemLeft" align="right" valign="top"><a id="a42ffc48e258cfe8ebf133ceebe0828c7"></a>
-virtual <a class="el" href="class_i_m_s_packets_a_p_i_core_1_1_packet.html">Packet</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>getPacketPtr</b> ()=0</td></tr>
-<tr class="separator:a42ffc48e258cfe8ebf133ceebe0828c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c7a550a1d6b0163f0ad09a5750bf482"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="class_i_m_s_packets_a_p_i_core_1_1_packet.html">Packet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_m_s_packets_a_p_i_core_1_1_packet_interface.html#a1c7a550a1d6b0163f0ad09a5750bf482">getPacketPtr</a> ()=0</td></tr>
+<tr class="memdesc:a1c7a550a1d6b0163f0ad09a5750bf482"><td class="mdescLeft">&#160;</td><td class="mdescRight">Abstract Accessor Function for Interface <a class="el" href="class_i_m_s_packets_a_p_i_core_1_1_packet.html" title="A structured interface to a token buffer.">Packet</a> Object Pointer.  <a href="class_i_m_s_packets_a_p_i_core_1_1_packet_interface.html#a1c7a550a1d6b0163f0ad09a5750bf482">More...</a><br /></td></tr>
+<tr class="separator:a1c7a550a1d6b0163f0ad09a5750bf482"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a14d0776e9a28d742a73a77b3977c76e3"><td class="memItemLeft" align="right" valign="top"><a id="a14d0776e9a28d742a73a77b3977c76e3"></a>
 virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>DeSerializePacket</b> ()=0</td></tr>
 <tr class="separator:a14d0776e9a28d742a73a77b3977c76e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -150,6 +149,37 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>tokenIndex</b> = 0</td
 
 <p class="definition">Definition at line <a class="el" href="2___packet_port_link_8h_source.html#l00058">58</a> of file <a class="el" href="2___packet_port_link_8h_source.html">2_PacketPortLink.h</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a1c7a550a1d6b0163f0ad09a5750bf482"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1c7a550a1d6b0163f0ad09a5750bf482">&#9670;&nbsp;</a></span>getPacketPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">IMSPacketsAPICore::PacketInterface::getPacketPtr </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Abstract Accessor Function for Interface <a class="el" href="class_i_m_s_packets_a_p_i_core_1_1_packet.html" title="A structured interface to a token buffer.">Packet</a> Object Pointer. </p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_i_m_s_packets_a_p_i_core_1_1_packet.html" title="A structured interface to a token buffer.">Packet</a></dd></dl>
+<p>Intended to be defined in derived classes, this function will return a pointer to the Abstract <a class="el" href="class_i_m_s_packets_a_p_i_core_1_1_packet.html" title="A structured interface to a token buffer.">Packet</a> object of the Interface Instance. </p>
+
+<p>Implemented in <a class="el" href="class_i_m_s_packets_a_p_i_core_1_1_packet_interface___a_s_c_i_i.html#a71d8dce9ad2cfbf8232b4985c168788b">IMSPacketsAPICore::PacketInterface_ASCII</a>, and <a class="el" href="class_i_m_s_packets_a_p_i_core_1_1_packet_interface___binary.html#aa4b06cc2f1992fe5ef2e2f7e1acc3766">IMSPacketsAPICore::PacketInterface_Binary&lt; TokenType &gt;</a>.</p>
+
+</div>
+</div>
 <a id="a50c83e5997ce2726f178da2e3d4daad6"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a50c83e5997ce2726f178da2e3d4daad6">&#9670;&nbsp;</a></span>ReadFrom()</h2>
 
@@ -176,7 +206,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>tokenIndex</b> = 0</td
 <p>Abstract De-Serialize Function. </p>
 <p>Reads bytes (or chars) from their stream instance then convert to Packets in a packet buffer </p>
 
-<p class="definition">Definition at line <a class="el" href="2___packet_port_link_8h_source.html#l00108">108</a> of file <a class="el" href="2___packet_port_link_8h_source.html">2_PacketPortLink.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="2___packet_port_link_8h_source.html#l00115">115</a> of file <a class="el" href="2___packet_port_link_8h_source.html">2_PacketPortLink.h</a>.</p>
 
 </div>
 </div>
@@ -206,7 +236,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>tokenIndex</b> = 0</td
 <p>Abstract Serialize Function. </p>
 <p>Converts <a class="el" href="class_i_m_s_packets_a_p_i_core_1_1_packet.html" title="A structured interface to a token buffer.">Packet</a> to bytes (or chars) then writes them to their stream instance </p>
 
-<p class="definition">Definition at line <a class="el" href="2___packet_port_link_8h_source.html#l00094">94</a> of file <a class="el" href="2___packet_port_link_8h_source.html">2_PacketPortLink.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="2___packet_port_link_8h_source.html#l00101">101</a> of file <a class="el" href="2___packet_port_link_8h_source.html">2_PacketPortLink.h</a>.</p>
 
 </div>
 </div>

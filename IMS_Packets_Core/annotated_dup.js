@@ -3,9 +3,7 @@ var annotated_dup =
     [ "IMSPacketsAPICore", null, [
       [ "AbstractDataExecution", "class_i_m_s_packets_a_p_i_core_1_1_abstract_data_execution.html", "class_i_m_s_packets_a_p_i_core_1_1_abstract_data_execution" ],
       [ "API_NODE", "class_i_m_s_packets_a_p_i_core_1_1_a_p_i___n_o_d_e.html", "class_i_m_s_packets_a_p_i_core_1_1_a_p_i___n_o_d_e" ],
-      [ "HDR_Packet", "class_i_m_s_packets_a_p_i_core_1_1_h_d_r___packet.html", "class_i_m_s_packets_a_p_i_core_1_1_h_d_r___packet" ],
       [ "Packet", "class_i_m_s_packets_a_p_i_core_1_1_packet.html", "class_i_m_s_packets_a_p_i_core_1_1_packet" ],
-      [ "Packet_Version", "class_i_m_s_packets_a_p_i_core_1_1_packet___version.html", "class_i_m_s_packets_a_p_i_core_1_1_packet___version" ],
       [ "PacketInterface", "class_i_m_s_packets_a_p_i_core_1_1_packet_interface.html", "class_i_m_s_packets_a_p_i_core_1_1_packet_interface" ],
       [ "PacketInterface_ASCII", "class_i_m_s_packets_a_p_i_core_1_1_packet_interface___a_s_c_i_i.html", "class_i_m_s_packets_a_p_i_core_1_1_packet_interface___a_s_c_i_i" ],
       [ "PacketInterface_Binary", "class_i_m_s_packets_a_p_i_core_1_1_packet_interface___binary.html", "class_i_m_s_packets_a_p_i_core_1_1_packet_interface___binary" ],
@@ -19,7 +17,10 @@ var annotated_dup =
     ] ],
     [ "CoreTest_Console_Node", "class_core_test___console___node.html", "class_core_test___console___node" ],
     [ "CoreTest_CustomConsole_Node", "class_core_test___custom_console___node.html", "class_core_test___custom_console___node" ],
+    [ "CoreTest_STDIOThread_SPD4Node", "class_core_test___s_t_d_i_o_thread___s_p_d4_node.html", "class_core_test___s_t_d_i_o_thread___s_p_d4_node" ],
+    [ "HDR_Packet", "class_h_d_r___packet.html", null ],
+    [ "Packet_Version", "class_packet___version.html", null ],
     [ "Test_API_Node_Default", "class_test___a_p_i___node___default.html", "class_test___a_p_i___node___default" ],
-    [ "TestASCIIConsole_InputInterface", "class_test_a_s_c_i_i_console___input_interface.html", "class_test_a_s_c_i_i_console___input_interface" ],
-    [ "TestASCIIConsole_OutputInterface", "class_test_a_s_c_i_i_console___output_interface.html", "class_test_a_s_c_i_i_console___output_interface" ]
+    [ "Test_std_cin_Interface", "class_test__std__cin___interface.html", "class_test__std__cin___interface" ],
+    [ "Test_std_cout_Interface", "class_test__std__cout___interface.html", "class_test__std__cout___interface" ]
 ];

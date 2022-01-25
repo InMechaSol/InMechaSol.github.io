@@ -54,6 +54,8 @@ $(document).ready(function(){initNavTree('class_i_m_s_packets_a_p_i_core_1_1_a_p
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="class_i_m_s_packets_a_p_i_core_1_1_a_p_i___n_o_d_e-members.html">List of all members</a>  </div>
   <div class="headertitle">
@@ -71,10 +73,8 @@ Inheritance diagram for IMSPacketsAPICore::API_NODE:</div>
  <div class="center">
   <img src="class_i_m_s_packets_a_p_i_core_1_1_a_p_i___n_o_d_e.png" usemap="#IMSPacketsAPICore::API_5FNODE_map" alt=""/>
   <map id="IMSPacketsAPICore::API_5FNODE_map" name="IMSPacketsAPICore::API_5FNODE_map">
-<area href="class_i_m_s_packets_a_p_i_core_1_1_abstract_data_execution.html" title="An Abstraction of the Distributed Data and Execution System." alt="IMSPacketsAPICore::AbstractDataExecution" shape="rect" coords="135,0,395,24"/>
-<area href="class_test___a_p_i___node___default.html" title="An Example with Default Configuration." alt="Test_API_Node_Default" shape="rect" coords="135,112,395,136"/>
-<area href="class_core_test___console___node.html" alt="CoreTest_Console_Node" shape="rect" coords="0,168,260,192"/>
-<area href="class_core_test___custom_console___node.html" alt="CoreTest_CustomConsole_Node" shape="rect" coords="270,168,530,192"/>
+<area href="class_i_m_s_packets_a_p_i_core_1_1_abstract_data_execution.html" title="An Abstraction of the Distributed Data and Execution System." alt="IMSPacketsAPICore::AbstractDataExecution" shape="rect" coords="0,0,260,24"/>
+<area href="class_test___a_p_i___node___default.html" title="An Example with Default Configuration." alt="Test_API_Node_Default&lt; TokenType &gt;" shape="rect" coords="0,112,260,136"/>
   </map>
 </div></div>
 <table class="memberdecls">
@@ -94,37 +94,57 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:aa9f135d4ad44201159cddbb1201f07f9 inherit pub_methods_class_i_m_s_packets_a_p_i_core_1_1_abstract_data_execution"><td class="mdescLeft">&#160;</td><td class="mdescRight">Abstract Initialization Function.  <a href="class_i_m_s_packets_a_p_i_core_1_1_abstract_data_execution.html#aa9f135d4ad44201159cddbb1201f07f9">More...</a><br /></td></tr>
 <tr class="separator:aa9f135d4ad44201159cddbb1201f07f9 inherit pub_methods_class_i_m_s_packets_a_p_i_core_1_1_abstract_data_execution"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:aa03db77ee5bae8b943e3ec9cb9f8857a"><td class="memItemLeft" align="right" valign="top"><a id="aa03db77ee5bae8b943e3ec9cb9f8857a"></a>
+static void&#160;</td><td class="memItemRight" valign="bottom"><b>ServiceSynchronousPorts</b> (<a class="el" href="class_i_m_s_packets_a_p_i_core_1_1_a_p_i___n_o_d_e.html">API_NODE</a> *nodePtr)</td></tr>
+<tr class="separator:aa03db77ee5bae8b943e3ec9cb9f8857a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abfbb94c20c33665a81391d22f38e5695"><td class="memTemplParams" colspan="2"><a id="abfbb94c20c33665a81391d22f38e5695"></a>
+template&lt;class TokenType &gt; </td></tr>
+<tr class="memitem:abfbb94c20c33665a81391d22f38e5695"><td class="memTemplItemLeft" align="right" valign="top">static void&#160;</td><td class="memTemplItemRight" valign="bottom"><b>VERSION_Handler_template</b> (Packet_VERSION *inPack, <a class="el" href="class_i_m_s_packets_a_p_i_core_1_1_a_p_i___n_o_d_e.html">API_NODE</a> *nodePtr)</td></tr>
+<tr class="separator:abfbb94c20c33665a81391d22f38e5695"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a407f51ddc7cd418852c54abe83754b26"><td class="memTemplParams" colspan="2"><a id="a407f51ddc7cd418852c54abe83754b26"></a>
+template&lt;class TokenType &gt; </td></tr>
+<tr class="memitem:a407f51ddc7cd418852c54abe83754b26"><td class="memTemplItemLeft" align="right" valign="top">static bool&#160;</td><td class="memTemplItemRight" valign="bottom"><b>VERSION_Packager_template</b> (Packet_VERSION *outPack, <a class="el" href="class_i_m_s_packets_a_p_i_core_1_1_a_p_i___n_o_d_e.html">API_NODE</a> *nodePtr, int Major, int Minor, int Build, int DevFlag)</td></tr>
+<tr class="separator:a407f51ddc7cd418852c54abe83754b26"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:ab6639cf8e4604413e4261b785fc2ad89"><td class="memItemLeft" align="right" valign="top"><a id="ab6639cf8e4604413e4261b785fc2ad89"></a>
+static const int&#160;</td><td class="memItemRight" valign="bottom"><b>ECOSYSTEM_MajorVersion</b> = ECOSYSTEM_MAJORVERSION</td></tr>
+<tr class="separator:ab6639cf8e4604413e4261b785fc2ad89"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6162d713e55f5c624e59e8471b461c5a"><td class="memItemLeft" align="right" valign="top"><a id="a6162d713e55f5c624e59e8471b461c5a"></a>
+static const int&#160;</td><td class="memItemRight" valign="bottom"><b>ECOSYSTEM_MinorVersion</b> = ECOSYSTEM_MINORVERSION</td></tr>
+<tr class="separator:a6162d713e55f5c624e59e8471b461c5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa775303b0c34b9bae6b87220f73573f3"><td class="memItemLeft" align="right" valign="top"><a id="aa775303b0c34b9bae6b87220f73573f3"></a>
+static const int&#160;</td><td class="memItemRight" valign="bottom"><b>ECOSYSTEM_BuildNumber</b> = ECOSYSTEM_BUILDNUMBER</td></tr>
+<tr class="separator:aa775303b0c34b9bae6b87220f73573f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a91fabcfe351cd6e6dbddab1427d2b893"><td class="memItemLeft" align="right" valign="top"><a id="a91fabcfe351cd6e6dbddab1427d2b893"></a>
+static const bool&#160;</td><td class="memItemRight" valign="bottom"><b>ECOSYSTEM_isReleaseBuild</b> = false</td></tr>
+<tr class="separator:a91fabcfe351cd6e6dbddab1427d2b893"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:a7bd9c2f63134b236902ffbc8e9c70ef0"><td class="memItemLeft" align="right" valign="top"><a id="a7bd9c2f63134b236902ffbc8e9c70ef0"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>setVersionPackTrigger</b> ()</td></tr>
-<tr class="separator:a7bd9c2f63134b236902ffbc8e9c70ef0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a72f3ebcfba5c39b9b192346d158917ca"><td class="memItemLeft" align="right" valign="top"><a id="a72f3ebcfba5c39b9b192346d158917ca"></a>
 virtual <a class="el" href="class_i_m_s_packets_a_p_i_core_1_1_polymorphic_packet_port.html">PolymorphicPacketPort</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>getPacketPortat</b> (int i)=0</td></tr>
 <tr class="separator:a72f3ebcfba5c39b9b192346d158917ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af10b68b3e0be2acc14003874a988a9f1"><td class="memItemLeft" align="right" valign="top"><a id="af10b68b3e0be2acc14003874a988a9f1"></a>
-virtual const int&#160;</td><td class="memItemRight" valign="bottom"><b>getNumPacketPorts</b> ()=0</td></tr>
-<tr class="separator:af10b68b3e0be2acc14003874a988a9f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a327751cd0aecfbcad85d4d5c0143c0b2"><td class="memItemLeft" align="right" valign="top"><a id="a327751cd0aecfbcad85d4d5c0143c0b2"></a>
+virtual int&#160;</td><td class="memItemRight" valign="bottom"><b>getNumPacketPorts</b> ()=0</td></tr>
+<tr class="separator:a327751cd0aecfbcad85d4d5c0143c0b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aabd33a4d9953c604851b5d2a5e9b8bcb"><td class="memItemLeft" align="right" valign="top"><a id="aabd33a4d9953c604851b5d2a5e9b8bcb"></a>
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>CustomLoop</b> ()=0</td></tr>
 <tr class="separator:aabd33a4d9953c604851b5d2a5e9b8bcb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af5c259316c54247d9538af687c6325f3"><td class="memItemLeft" align="right" valign="top"><a id="af5c259316c54247d9538af687c6325f3"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>VERSION_Handler</b> (<a class="el" href="class_i_m_s_packets_a_p_i_core_1_1_packet___version.html">Packet_Version</a> *inPack)=0</td></tr>
-<tr class="separator:af5c259316c54247d9538af687c6325f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3331837a94a78fdece753e3d05920bde"><td class="memItemLeft" align="right" valign="top"><a id="a3331837a94a78fdece753e3d05920bde"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>VERSION_Packager</b> (<a class="el" href="class_i_m_s_packets_a_p_i_core_1_1_packet___version.html">Packet_Version</a> *outPack)=0</td></tr>
-<tr class="separator:a3331837a94a78fdece753e3d05920bde"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8f067cb89aec2ddad68af1000c8b92eb"><td class="memItemLeft" align="right" valign="top"><a id="a8f067cb89aec2ddad68af1000c8b92eb"></a>
-virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>API_CustomShared_PrepareTx</b> (<a class="el" href="class_i_m_s_packets_a_p_i_core_1_1_h_d_r___packet.html">HDR_Packet</a> *TxPackOutPtr)=0</td></tr>
-<tr class="separator:a8f067cb89aec2ddad68af1000c8b92eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae0246370fcb0708978fe18a5985ffc1d"><td class="memItemLeft" align="right" valign="top"><a id="ae0246370fcb0708978fe18a5985ffc1d"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>API_CustomShared_HandleRx</b> (<a class="el" href="class_i_m_s_packets_a_p_i_core_1_1_h_d_r___packet.html">HDR_Packet</a> *RxPackInPtr)=0</td></tr>
-<tr class="separator:ae0246370fcb0708978fe18a5985ffc1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae9b8eb5bc1eb82afb6a71b47b25e8e3c"><td class="memItemLeft" align="right" valign="top"><a id="ae9b8eb5bc1eb82afb6a71b47b25e8e3c"></a>
+virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>API_CustomShared_PrepareTx</b> (<a class="el" href="class_i_m_s_packets_a_p_i_core_1_1_packet.html">Packet</a> *TxPackOutPtr)=0</td></tr>
+<tr class="separator:ae9b8eb5bc1eb82afb6a71b47b25e8e3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af0add1f85f3dd66d6fd91ad14d86013b"><td class="memItemLeft" align="right" valign="top"><a id="af0add1f85f3dd66d6fd91ad14d86013b"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>API_CustomShared_HandleRx</b> (<a class="el" href="class_i_m_s_packets_a_p_i_core_1_1_packet.html">Packet</a> *RxPackInPtr)=0</td></tr>
+<tr class="separator:af0add1f85f3dd66d6fd91ad14d86013b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>API Node for HDR_Packets. </p>
 
-<p class="definition">Definition at line <a class="el" href="3___a_p_i_node_link_8h_source.html#l00475">475</a> of file <a class="el" href="3___a_p_i_node_link_8h_source.html">3_APINodeLink.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="3___a_p_i_node_link_8h_source.html#l00638">638</a> of file <a class="el" href="3___a_p_i_node_link_8h_source.html">3_APINodeLink.h</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a2553695b585dae44400d96d4aaaa77de"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2553695b585dae44400d96d4aaaa77de">&#9670;&nbsp;</a></span>HandleRxPacket()</h2>
@@ -155,7 +175,7 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>API_CustomSha
 
 <p>Implements <a class="el" href="class_i_m_s_packets_a_p_i_core_1_1_abstract_data_execution.html#a4a9b5ec278e2956773a36ca91ac919c7">IMSPacketsAPICore::AbstractDataExecution</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="3___a_p_i_node_link_8h_source.html#l00497">497</a> of file <a class="el" href="3___a_p_i_node_link_8h_source.html">3_APINodeLink.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="3___a_p_i_node_link_8h_source.html#l00680">680</a> of file <a class="el" href="3___a_p_i_node_link_8h_source.html">3_APINodeLink.h</a>.</p>
 
 </div>
 </div>
@@ -187,7 +207,7 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>API_CustomSha
 
 <p>Implements <a class="el" href="class_i_m_s_packets_a_p_i_core_1_1_abstract_data_execution.html#a65eaa114545b8120ca6e84de32eec429">IMSPacketsAPICore::AbstractDataExecution</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="3___a_p_i_node_link_8h_source.html#l00491">491</a> of file <a class="el" href="3___a_p_i_node_link_8h_source.html">3_APINodeLink.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="3___a_p_i_node_link_8h_source.html#l00673">673</a> of file <a class="el" href="3___a_p_i_node_link_8h_source.html">3_APINodeLink.h</a>.</p>
 
 </div>
 </div>
@@ -220,7 +240,7 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>API_CustomSha
 
 <p>Implements <a class="el" href="class_i_m_s_packets_a_p_i_core_1_1_abstract_data_execution.html#a831e864e8047410ee24cb4ffd54136c9">IMSPacketsAPICore::AbstractDataExecution</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="3___a_p_i_node_link_8h_source.html#l00507">507</a> of file <a class="el" href="3___a_p_i_node_link_8h_source.html">3_APINodeLink.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="3___a_p_i_node_link_8h_source.html#l00687">687</a> of file <a class="el" href="3___a_p_i_node_link_8h_source.html">3_APINodeLink.h</a>.</p>
 
 </div>
 </div>

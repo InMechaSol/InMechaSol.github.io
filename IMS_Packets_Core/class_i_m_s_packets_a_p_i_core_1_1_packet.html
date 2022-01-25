@@ -58,7 +58,7 @@ $(document).ready(function(){initNavTree('class_i_m_s_packets_a_p_i_core_1_1_pac
 <a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="class_i_m_s_packets_a_p_i_core_1_1_packet-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">IMSPacketsAPICore::Packet Class Reference<div class="ingroups"><a class="el" href="group___language_constructs.html">LanguageConstructs</a></div></div>  </div>
+<div class="title">IMSPacketsAPICore::Packet Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span><div class="ingroups"><a class="el" href="group___language_constructs.html">LanguageConstructs</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
 
@@ -66,16 +66,6 @@ $(document).ready(function(){initNavTree('class_i_m_s_packets_a_p_i_core_1_1_pac
  <a href="class_i_m_s_packets_a_p_i_core_1_1_packet.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="1___language_constructs_8h_source.html">1_LanguageConstructs.h</a>&gt;</code></p>
-<div class="dynheader">
-Inheritance diagram for IMSPacketsAPICore::Packet:</div>
-<div class="dyncontent">
- <div class="center">
-  <img src="class_i_m_s_packets_a_p_i_core_1_1_packet.png" usemap="#IMSPacketsAPICore::Packet_map" alt=""/>
-  <map id="IMSPacketsAPICore::Packet_map" name="IMSPacketsAPICore::Packet_map">
-<area href="class_i_m_s_packets_a_p_i_core_1_1_h_d_r___packet.html" title="A Packet with Header Information." alt="IMSPacketsAPICore::HDR_Packet" shape="rect" coords="0,56,221,80"/>
-<area href="class_i_m_s_packets_a_p_i_core_1_1_packet___version.html" title="A Version Packet for Application Nodes." alt="IMSPacketsAPICore::Packet_Version" shape="rect" coords="0,112,221,136"/>
-  </map>
-</div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -94,12 +84,75 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>setCharsBuffer</b> (c
 <tr class="memitem:a31c323da5a6fde050f4ecc07d5ad2e26"><td class="memItemLeft" align="right" valign="top"><a id="a31c323da5a6fde050f4ecc07d5ad2e26"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>CopyTokenBufferPtrs</b> (<a class="el" href="class_i_m_s_packets_a_p_i_core_1_1_packet.html">Packet</a> *copyPacketPtrs)</td></tr>
 <tr class="separator:a31c323da5a6fde050f4ecc07d5ad2e26"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:accff87a59e2080a41aed35d9a9452c27"><td class="memItemLeft" align="right" valign="top"><a id="accff87a59e2080a41aed35d9a9452c27"></a>
-virtual const char *&#160;</td><td class="memItemRight" valign="bottom"><b>getPacketIDString</b> () const</td></tr>
-<tr class="separator:accff87a59e2080a41aed35d9a9452c27"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a94e079c49a8a7d105e69aaef8bae1ad9"><td class="memItemLeft" align="right" valign="top"><a id="a94e079c49a8a7d105e69aaef8bae1ad9"></a>
-virtual int&#160;</td><td class="memItemRight" valign="bottom"><b>getSPDCount</b> ()</td></tr>
-<tr class="separator:a94e079c49a8a7d105e69aaef8bae1ad9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d13be27f92d3324fb8dbc148fd58a31"><td class="memItemLeft" align="right" valign="top"><a id="a9d13be27f92d3324fb8dbc148fd58a31"></a>
+virtual int&#160;</td><td class="memItemRight" valign="bottom"><b>getPacketID</b> ()=0</td></tr>
+<tr class="separator:a9d13be27f92d3324fb8dbc148fd58a31"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae7d3dfe920b37121123797d01f011434"><td class="memItemLeft" align="right" valign="top"><a id="ae7d3dfe920b37121123797d01f011434"></a>
+virtual char *&#160;</td><td class="memItemRight" valign="bottom"><b>getPacketIDString</b> ()=0</td></tr>
+<tr class="separator:ae7d3dfe920b37121123797d01f011434"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a714e2a2844cf4a47da7679f19b2c5535"><td class="memItemLeft" align="right" valign="top"><a id="a714e2a2844cf4a47da7679f19b2c5535"></a>
+virtual int&#160;</td><td class="memItemRight" valign="bottom"><b>getNumSPDs</b> ()=0</td></tr>
+<tr class="separator:a714e2a2844cf4a47da7679f19b2c5535"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae24a17e688124e3c154c1b45c207d7d2"><td class="memItemLeft" align="right" valign="top"><a id="ae24a17e688124e3c154c1b45c207d7d2"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>ByteBuffer_ID_Equals</b> (const int compareValue)</td></tr>
+<tr class="separator:ae24a17e688124e3c154c1b45c207d7d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a66c2ddcbc23e70226301e40e3c68e0c0"><td class="memItemLeft" align="right" valign="top"><a id="a66c2ddcbc23e70226301e40e3c68e0c0"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>StringBuffer_IDString_Equals</b> (const char *compareStringPtr)</td></tr>
+<tr class="separator:a66c2ddcbc23e70226301e40e3c68e0c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3aaf4046e1f704bf4043ec7fe417e823"><td class="memItemLeft" align="right" valign="top"><a id="a3aaf4046e1f704bf4043ec7fe417e823"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>writebuff_PackID</b> (<a class="el" href="union_i_m_s_packets_a_p_i_core_1_1_s_p_d1.html">SPD1</a> *SPDPtr)</td></tr>
+<tr class="separator:a3aaf4046e1f704bf4043ec7fe417e823"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a58b24568c84a724c581183f6a4f742a3"><td class="memItemLeft" align="right" valign="top"><a id="a58b24568c84a724c581183f6a4f742a3"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>writebuff_PackID</b> (<a class="el" href="union_i_m_s_packets_a_p_i_core_1_1_s_p_d2.html">SPD2</a> *SPDPtr)</td></tr>
+<tr class="separator:a58b24568c84a724c581183f6a4f742a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a582de17d284f4f50a843cd534cc9b5d6"><td class="memItemLeft" align="right" valign="top"><a id="a582de17d284f4f50a843cd534cc9b5d6"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>writebuff_PackID</b> (<a class="el" href="union_i_m_s_packets_a_p_i_core_1_1_s_p_d4.html">SPD4</a> *SPDPtr)</td></tr>
+<tr class="separator:a582de17d284f4f50a843cd534cc9b5d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4cafa610ccbd6aaea9d0ed1949dfba52"><td class="memItemLeft" align="right" valign="top"><a id="a4cafa610ccbd6aaea9d0ed1949dfba52"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>writebuff_PackID</b> (<a class="el" href="union_i_m_s_packets_a_p_i_core_1_1_s_p_d8.html">SPD8</a> *SPDPtr)</td></tr>
+<tr class="separator:a4cafa610ccbd6aaea9d0ed1949dfba52"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7786e51177d33d42cbac9ba8ebc68b66"><td class="memItemLeft" align="right" valign="top"><a id="a7786e51177d33d42cbac9ba8ebc68b66"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>writebuff_PackIDString</b> ()</td></tr>
+<tr class="separator:a7786e51177d33d42cbac9ba8ebc68b66"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aadd188a48134d5c4b58cc5b3c6329b50"><td class="memItemLeft" align="right" valign="top"><a id="aadd188a48134d5c4b58cc5b3c6329b50"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>readbuff_PackID</b> (<a class="el" href="union_i_m_s_packets_a_p_i_core_1_1_s_p_d1.html">SPD1</a> *SPDPtr)</td></tr>
+<tr class="separator:aadd188a48134d5c4b58cc5b3c6329b50"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab01e5462a968efd58b51b4426e22f309"><td class="memItemLeft" align="right" valign="top"><a id="ab01e5462a968efd58b51b4426e22f309"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>readbuff_PackID</b> (<a class="el" href="union_i_m_s_packets_a_p_i_core_1_1_s_p_d2.html">SPD2</a> *SPDPtr)</td></tr>
+<tr class="separator:ab01e5462a968efd58b51b4426e22f309"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a251aab9e8f2f47bef80e361a8c4a1b3f"><td class="memItemLeft" align="right" valign="top"><a id="a251aab9e8f2f47bef80e361a8c4a1b3f"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>readbuff_PackID</b> (<a class="el" href="union_i_m_s_packets_a_p_i_core_1_1_s_p_d4.html">SPD4</a> *SPDPtr)</td></tr>
+<tr class="separator:a251aab9e8f2f47bef80e361a8c4a1b3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a715748b9df00135ee969369833308287"><td class="memItemLeft" align="right" valign="top"><a id="a715748b9df00135ee969369833308287"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>readbuff_PackID</b> (<a class="el" href="union_i_m_s_packets_a_p_i_core_1_1_s_p_d8.html">SPD8</a> *SPDPtr)</td></tr>
+<tr class="separator:a715748b9df00135ee969369833308287"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad7a972b846f911809c463fd7860bb6b4"><td class="memItemLeft" align="right" valign="top"><a id="ad7a972b846f911809c463fd7860bb6b4"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>writebuff_PackLength</b> (<a class="el" href="union_i_m_s_packets_a_p_i_core_1_1_s_p_d1.html">SPD1</a> *SPDPtr)</td></tr>
+<tr class="separator:ad7a972b846f911809c463fd7860bb6b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b50393b688bb7fea614e45e209d87c2"><td class="memItemLeft" align="right" valign="top"><a id="a8b50393b688bb7fea614e45e209d87c2"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>writebuff_PackLength</b> (<a class="el" href="union_i_m_s_packets_a_p_i_core_1_1_s_p_d2.html">SPD2</a> *SPDPtr)</td></tr>
+<tr class="separator:a8b50393b688bb7fea614e45e209d87c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a82ed1da92f554ca6ff131193f7e9ce87"><td class="memItemLeft" align="right" valign="top"><a id="a82ed1da92f554ca6ff131193f7e9ce87"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>writebuff_PackLength</b> (<a class="el" href="union_i_m_s_packets_a_p_i_core_1_1_s_p_d4.html">SPD4</a> *SPDPtr)</td></tr>
+<tr class="separator:a82ed1da92f554ca6ff131193f7e9ce87"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ade4cc8d35bb477874e01b4bd2efe91"><td class="memItemLeft" align="right" valign="top"><a id="a0ade4cc8d35bb477874e01b4bd2efe91"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>writebuff_PackLength</b> (<a class="el" href="union_i_m_s_packets_a_p_i_core_1_1_s_p_d8.html">SPD8</a> *SPDPtr)</td></tr>
+<tr class="separator:a0ade4cc8d35bb477874e01b4bd2efe91"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6250be9c8133d1726165e2f3ee1b9417"><td class="memItemLeft" align="right" valign="top"><a id="a6250be9c8133d1726165e2f3ee1b9417"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>writebuff_TokenCountString</b> ()</td></tr>
+<tr class="separator:a6250be9c8133d1726165e2f3ee1b9417"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab30fe4e63c41b5b0a92006a4d7ed3983"><td class="memItemLeft" align="right" valign="top"><a id="ab30fe4e63c41b5b0a92006a4d7ed3983"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>readbuff_PackLength</b> (<a class="el" href="union_i_m_s_packets_a_p_i_core_1_1_s_p_d1.html">SPD1</a> *SPDPtr)</td></tr>
+<tr class="separator:ab30fe4e63c41b5b0a92006a4d7ed3983"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a25b6edfc0105eb24aa55245d174da8b0"><td class="memItemLeft" align="right" valign="top"><a id="a25b6edfc0105eb24aa55245d174da8b0"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>readbuff_PackLength</b> (<a class="el" href="union_i_m_s_packets_a_p_i_core_1_1_s_p_d2.html">SPD2</a> *SPDPtr)</td></tr>
+<tr class="separator:a25b6edfc0105eb24aa55245d174da8b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:accc68c428e12d7c00d0ed7eb10eebfed"><td class="memItemLeft" align="right" valign="top"><a id="accc68c428e12d7c00d0ed7eb10eebfed"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>readbuff_PackLength</b> (<a class="el" href="union_i_m_s_packets_a_p_i_core_1_1_s_p_d4.html">SPD4</a> *SPDPtr)</td></tr>
+<tr class="separator:accc68c428e12d7c00d0ed7eb10eebfed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf53247784ca7afd35c5dc59b4122d90"><td class="memItemLeft" align="right" valign="top"><a id="acf53247784ca7afd35c5dc59b4122d90"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>readbuff_PackLength</b> (<a class="el" href="union_i_m_s_packets_a_p_i_core_1_1_s_p_d8.html">SPD8</a> *SPDPtr)</td></tr>
+<tr class="separator:acf53247784ca7afd35c5dc59b4122d90"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acd4df2e2b9a0d6704d9f507d03b9a9ac"><td class="memItemLeft" align="right" valign="top"><a id="acd4df2e2b9a0d6704d9f507d03b9a9ac"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>isASCIIPacket</b> ()</td></tr>
 <tr class="separator:acd4df2e2b9a0d6704d9f507d03b9a9ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -198,7 +251,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>setCharsfromSPDat</b>
 <div class="textblock"><p>A structured interface to a token buffer. </p>
 <p>Packets provide data abstraction and api endpoint identification required to communicate with common data and execute common api endpoints in the distributed computing system. </p>
 
-<p class="definition">Definition at line <a class="el" href="1___language_constructs_8h_source.html#l00238">238</a> of file <a class="el" href="1___language_constructs_8h_source.html">1_LanguageConstructs.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="1___language_constructs_8h_source.html#l00283">283</a> of file <a class="el" href="1___language_constructs_8h_source.html">1_LanguageConstructs.h</a>.</p>
 </div><hr/>The documentation for this class was generated from the following file:<ul>
 <li><a class="el" href="1___language_constructs_8h_source.html">1_LanguageConstructs.h</a></li>
 </ul>
